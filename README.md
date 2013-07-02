@@ -6,7 +6,13 @@ that makes it easier get GNU Radio and friends running on OS X.
 ## Installation
 
 These steps have been tested on Lion 10.7.4 with Xcode 4.3.2 and Mountain Lion
-10.8 with Xcode 4.4.1.
+10.8 with Xcode 4.4.1 & 10.8.4 Xcode 4.6.3.
+
+- Specify gcc 4.2.2.
+	```sh
+	brew search gcc
+ 	brew tap homebrew/dupes
+	```
 
 - Add this line to your profile (ie `~/.bash_profile` or `~/.zshenv`) and reload
   your shell (`exec $SHELL`)
@@ -32,7 +38,7 @@ These steps have been tested on Lion 10.7.4 with Xcode 4.3.2 and Mountain Lion
 - Install gnuradio (add `--with-qt` for `gr-qtgui`)
 
   ```sh
-  brew tap titanous/homebrew-gnuradio
+  brew tap hackthehuman/homebrew-gnuradio
   brew install gnuradio
   ```
 - Create the `~/.gnuradio/config.conf` config file for custom block support
