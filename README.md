@@ -69,3 +69,19 @@ These steps have been tested on Lion 10.7.4 with Xcode 4.3.2 and Mountain Lion
 	```sh
 	rtl_test -t
 	```
+- This is the output from my device.
+`
+Found 1 device(s):
+  0:  Generic RTL2832U
+
+Using device 0: Generic RTL2832U
+Found Elonics E4000 tuner
+Supported gain values (14): -1.0 1.5 4.0 6.5 9.0 11.5 14.0 16.5 19.0 21.5 24.0 29.0 34.0 42.0 
+Benchmarking E4000 PLL...
+[E4K] PLL not locked for 53000000 Hz!
+[E4K] PLL not locked for 2213000000 Hz!
+[E4K] PLL not locked for 1107000000 Hz!
+[E4K] PLL not locked for 1249000000 Hz!
+E4K range: 54 to 2212 MHz
+E4K L-band gap: 1107 to 1249 MHz
+`
