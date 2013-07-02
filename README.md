@@ -24,7 +24,7 @@ These steps have been tested on Lion 10.7.4 with Xcode 4.3.2 and Mountain Lion
 - Install the python package prerequisites
 
   ```sh
-  brew install python gfortran umfpack swig
+  brew install python gfortran swig
   ```
 
 - Install the prerequisite python packages
