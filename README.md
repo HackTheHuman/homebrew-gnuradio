@@ -63,3 +63,9 @@ These steps have been tested on Lion 10.7.4 with Xcode 4.3.2 and Mountain Lion
   ```sh
   brew install rtlsdr gr-osmosdr gr-baz --HEAD
   ```
+  
+- Test your `rtlsdr` device has been succesfully installed. 
+
+	```sh
+	rtl_test -t
+	```
