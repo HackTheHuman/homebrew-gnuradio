@@ -70,7 +70,7 @@ These steps have been tested on Lion 10.7.4 with Xcode 4.3.2 and Mountain Lion
 	rtl_test -t
 	```
 - This is the output from my device.
-`
+```sh
 Found 1 device(s):
   0:  Generic RTL2832U
 
@@ -84,4 +84,4 @@ Benchmarking E4000 PLL...
 [E4K] PLL not locked for 1249000000 Hz!
 E4K range: 54 to 2212 MHz
 E4K L-band gap: 1107 to 1249 MHz
-`
+```
